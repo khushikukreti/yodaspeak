@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banana speak</title>
+  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+        h1{
+            text-align: center;
+            margin: 2rem;
+        }
+        textarea{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+            background: transparent; 
+        }
+        
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        button{
+            margin-left: 30% ;
+            width: 30%;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 50%;
+            
+        }
+        body{
+            background-image: url("image.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Potta One', cursive;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+ <h1>Yoda Speak</h1>
+ <textarea id="inputText" placeholder="enter your text here"> </textarea>
+ <br>
+ <div id="button">
+    <button id="translate">Translate</button>
+ </div>
+
+ <div id="output" ></div>
+ <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
